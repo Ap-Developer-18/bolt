@@ -1,0 +1,380 @@
+.tool-space-img,
+.three-flag-img {
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-box {
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.about-2nd-box {
+  padding: 81px 24px;
+  background: #cccccd;
+}
+.about_para {
+  max-width: 651px;
+}
+
+.bolt-light-img {
+  top: 16px;
+  left: 0;
+  pointer-events: none;
+  width: 60px;
+  height: 100px;
+}
+.bolt-key-success {
+  pointer-events: none;
+  width: 60px;
+  height: 100px;
+}
+
+.overflow-x-clip {
+  overflow-x: clip;
+}
+
+/************************************************************* capable section ***************************************************/
+.capable-p {
+  max-width: 615px;
+}
+
+.capable-one-bg {
+  background-image: url("../images/webp/trees.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: all 200ms linear;
+}
+
+.journey-img {
+  background-image: url("../images/webp/journey.webp");
+}
+
+.workshop-bg {
+  background-image: url("../images/webp/workshop.webp");
+}
+
+.paint-shop-bg {
+  background-image: url("../images/webp/paint-shop.webp");
+}
+
+.rounded-ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+
+.white-txt-box {
+  margin-top: 282px;
+}
+
+.capable-row-spacing {
+  margin-top: 44px;
+  padding-bottom: 40px;
+}
+
+.overflow-boxes {
+  width: 388px !important;
+}
+
+.capable-row-spacing::-webkit-scrollbar {
+  background: #e5e5e54d;
+  height: 10px;
+  max-width: 1140px;
+}
+
+/* Track */
+.capable-row-spacing::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.capable-row-spacing::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border-radius: 99px;
+}
+
+/************************************************************* capable section ***************************************************/
+.recent_work_section .slick-slide {
+  width: 267px !important;
+}
+
+.recent_work_section .slick-slide {
+  margin: 0 12px;
+}
+
+.recent_work_section .slick-list {
+  margin: 0 -12px;
+}
+
+.common-slider-svg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #ffffff1a;
+  cursor: pointer;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50%;
+  background: #ffffff1a;
+  transition: all 0.3s ease-in-out;
+  position: unset !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next::after {
+  content: unset !important;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: unset !important;
+  object-fit: unset !important;
+  height: unset !important;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff1a !important;
+  opacity: 100% !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+
+.challenging_slider_arrows {
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.challenging-slider .slick-slide {
+  margin: 0 12px;
+}
+
+.challenging-slider .slick-list {
+  margin: 0 -12px;
+}
+
+.challenge-prev,
+.challenge-next {
+  box-shadow: 0px 0px 10px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto !important;
+}
+
+.all-dots-arrow {
+  bottom: 20px;
+  right: 17px;
+}
+
+.bolt-right-img {
+  bottom: -187px !important;
+  right: 0 !important;
+  top: unset !important;
+  left: unset !important;
+}
+
+.bolt-light-service {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left: unset !important;
+}
+
+.rounded-ball:hover {
+  background-color: black;
+  box-shadow: 0px 0px 16px 6px;
+}
+
+.rounded-ball:hover svg path {
+  fill: white;
+}
+
+.capable-one-bg:hover {
+  transform: scale(0.95);
+}
+
+.bolt-light-challenge {
+  opacity: 10%;
+}
+
+.bolt-light-challenge1 {
+  top: 70% !important;
+  right: 0;
+}
+
+/************************************************************** media screens ****************************************************/
+@media (min-width: 576px) {
+  .about-us-section {
+    padding-top: 96px;
+    padding-bottom: 80px;
+  }
+
+  .challenging_slider_arrows {
+    bottom: -70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us-section {
+    padding-top: 82px;
+    padding-bottom: 77px;
+  }
+
+  .bolt-light-img {
+    width: 70px;
+    height: 138px;
+  }
+  .bolt-key-success {
+    width: 70px;
+    height: 138px;
+  }
+
+  .challenging_slider_arrows {
+    bottom: -70px;
+  }
+
+  .all-dots-arrow {
+    bottom: 30px;
+    right: 17px;
+  }
+}
+
+@media (min-width: 992px) {
+  .tool-space-img {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+  }
+  .taking_care_tool_space_image {
+    position: absolute;
+    right: 24px;
+    bottom: -36px;
+  }
+
+  .three-flag-img {
+    border: 6px solid #fbf5eb;
+    z-index: 2;
+  }
+  .taking_care_flag_image {
+    border: 6px solid #fbf5eb;
+    z-index: 2;
+    position: absolute;
+    top: -50px;
+    left: 40px;
+  }
+
+  .bolt-light-img {
+    width: 164px;
+    height: 334px;
+  }
+  .bolt-key-success {
+    width: 164px;
+    height: 334px;
+  }
+
+  .about-us-section {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+
+  .challenging_slider_arrows {
+    bottom: -70px;
+  }
+
+  .capablities {
+    padding-top: 90px;
+  }
+
+  .all-dots-arrow {
+    bottom: 52px;
+    right: 0;
+  }
+
+  .bolt-right-img {
+    bottom: -308px !important;
+    right: 0 !important;
+    top: unset !important;
+    left: unset !important;
+  }
+  .tool-space-img,
+  .three-flag-img {
+    max-width: 305px;
+  }
+
+  .taking_care_tool_space_image,
+  .taking_care_flag_image {
+    max-width: 305px;
+  }
+
+  .about-box {
+    background: #cccccd1a;
+  }
+}
+@media (min-width: 1024px) {
+  .about-us-section {
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1280px) {
+  .challenging_slider_arrows {
+    bottom: 221px;
+  }
+  .about-us-section {
+    padding-top: 170px;
+    padding-bottom: 119px;
+  }
+  .capablities {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 1399.99px) {
+  .challenging_slider_arrows {
+    bottom: 221px;
+  }
+}
+
+@media (max-width: 575.99px) {
+  .about-us-section {
+    padding-top: 75px;
+    padding-bottom: 55px;
+  }
+
+  .about-2nd-box {
+    padding: 39px 24px;
+  }
+
+  .white-txt-box {
+    margin-top: 134px;
+  }
+
+  .recent_work_slider {
+    padding-top: 16px !important;
+  }
+}
+@media (max-width: 575px) {
+  .overflow-boxes {
+    height: auto;
+  }
+  .white-txt-box {
+    position: absolute;
+    width: calc(100% - 24px);
+    left: 12px;
+    bottom: 20px;
+  }
+}
