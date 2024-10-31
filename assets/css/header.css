@@ -1,0 +1,618 @@
+/* The entire scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 100%; /* Height of the horizontal scrollbar */
+}
+
+/* The scrollbar "track" */
+::-webkit-scrollbar-track {
+  background-color: #636364; /* Color of the scrollbar thumb */
+  border-radius: 99px; /* Rounded corners for the thumb */
+  border: 1px solid #b1b1b1; /* Rounded corners for the track */
+}
+
+/* The "thumb" of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #aeaeaf; /* Color of the scrollbar thumb */
+  border-radius: 99px; /* Rounded corners for the thumb */
+}
+.hero_bg_image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.nav_bar {
+  padding-top: 17px;
+  padding-bottom: 18px;
+}
+.nav_links_gap {
+  gap: 32px;
+}
+.menu-item {
+  width: 30px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: white;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+/* Cross icon when nav is open */
+.menu-open .menu-item:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-open .menu-item:nth-child(2) {
+  opacity: 0; /* Hide the middle bar */
+}
+
+.menu-open .menu-item:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+.nav_border_bottom {
+  border-bottom: 1px solid #776868;
+}
+.h_22 {
+  height: 22px;
+}
+.hero_text_parent {
+  padding-top: 139px;
+  width: 100%;
+  max-width: 573px;
+}
+.hero_para {
+  max-width: 495px;
+}
+.number_box {
+  padding-top: 126px;
+  gap: 10px;
+  padding-bottom: 42px;
+}
+.hero_slider_img {
+  width: 484px;
+  height: 574px;
+  min-height: 350px;
+}
+.swiper_button_next {
+  position: absolute;
+  right: 65px;
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  top: 59.5%;
+  background-color: #262628;
+  padding: 12px 15px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.swiper_button_prev {
+  position: absolute;
+  left: 65px;
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  top: 59.5%;
+  transform: rotate(180deg);
+  background-color: #262628;
+  padding: 12px 15px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.swiper_button_prev:hover {
+  color: var(--c-black-100) !important;
+  background-color: white;
+}
+.swiper_button_next:hover {
+  color: var(--c-black-100) !important;
+  background-color: white;
+}
+.swiper_button_next svg path {
+  fill: #ffffff;
+}
+.swiper_button_prev svg path {
+  fill: #ffffff;
+}
+.swiper_button_next:hover svg path {
+  fill: var(--c-black-100);
+}
+.swiper_button_prev:hover svg path {
+  fill: var(--c-black-100);
+}
+.transition_03 {
+  transition: all 0.3s ease-in-out;
+}
+#menu_bar li a:hover,
+#menu_bar li a.active {
+  -webkit-text-stroke: 1px;
+}
+.recent_work_section {
+  padding: 80px 0;
+}
+.pointer_none {
+  pointer-events: none !important;
+}
+.recent_para {
+  max-width: 615px;
+}
+.recent_work_slider {
+  padding-top: 52px;
+  z-index: 10;
+}
+.slider-card-img {
+  width: 100%;
+  height: 296px;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.company_img:hover .company_name_text {
+  background-color: var(--c-black-100);
+}
+.company_img {
+  cursor: pointer;
+}
+.uae_climate_text {
+  left: 50%;
+  bottom: 20px;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.recent-work-top-bolt-current-img {
+  width: 164px;
+  height: 334px;
+  position: absolute;
+  top: 0;
+  right: 42px;
+}
+.recent-work-bottom-bolt-current-img {
+  width: 164px;
+  height: 334px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.exhibition_fitness_section {
+  padding: 437px 0px 150px 0px;
+}
+.exhibition_fitness_bg {
+  width: 100%;
+  height: 810px;
+  position: absolute;
+  left: 0px;
+  top: 58px;
+}
+.exhibition_para {
+  max-width: 558px;
+}
+.custom_exhibition_card {
+  padding: 30px 52px 22px 44px;
+  border-right: 2px solid var(--c-gray-400);
+  border-bottom: 2px solid var(--c-gray-400);
+}
+.modular_outdoor_card {
+  padding: 30px 51px 22px 62px;
+  border-bottom: 2px solid var(--c-gray-400);
+}
+.retail_hospitality_card {
+  padding: 20px 46px 32px 49px;
+  border-right: 2px solid var(--c-gray-400);
+}
+.multi_city_card {
+  padding: 20px 51px 32px 62px;
+}
+.exhibition_fitness_heading_box {
+  max-width: 558px;
+}
+.custom_exhibition_card_text {
+  max-width: 179px;
+}
+.pt_10 {
+  padding-top: 10px;
+}
+.challenging_slider_section {
+  min-height: 542px;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  z-index: 2;
+  transform: translateX(-50%);
+}
+.gap_60 {
+  gap: 60px;
+}
+.capable-row-spacing {
+  margin-bottom: 150px;
+  margin-left: 150px;
+}
+.swiper-button-disabled {
+  opacity: 1 !important;
+}
+.swiper-button-next:hover {
+  background-color: white !important;
+}
+.swiper-button-prev:hover {
+  background-color: white !important;
+}
+.swiper-button-next:hover svg path {
+  fill: var(--c-black-100) !important;
+}
+.swiper-button-prev:hover svg path {
+  fill: var(--c-black-100) !important;
+}
+.hero_slider_img_parent {
+  max-width: 484px;
+  overflow: hidden;
+}
+.hero_number_slider .swiper-slide {
+  opacity: 0 !important;
+}
+.hero_number_slider .swiper-slide.swiper-slide-active {
+  z-index: 40;
+  opacity: 1 !important;
+}
+.max_w_1536 {
+  max-width: 1536px;
+}
+.br_4 {
+  border-radius: 4px;
+}
+.capabititiesswiper .swiper-slide {
+  height: 332px !important;
+}
+.capabititiesswiper .swiper_pagination {
+  position: absolute;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  bottom: 40px !important;
+}
+.capabititiesswiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  color: #000 !important;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.capabititiesswiper .swiper-pagination-bullet-active {
+  color: white !important;
+  background: #000 !important;
+}
+.recent_work_details {
+  gap: 30px;
+}
+.recent_tab_box_spacing {
+  padding: 14px 10px 14px 14px;
+  width: 100%;
+  max-width: 558px;
+  max-height: 502px;
+  height: 100%;
+  border-radius: 4px;
+}
+.recent_tab_box {
+  padding-right: 14px;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 558px;
+  max-height: 476px;
+  height: 100%;
+}
+.tab_heading {
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid #555557;
+  cursor: pointer;
+}
+.tab_heading:hover {
+  background-color: white;
+  color: var(--c-black-100) !important;
+  -webkit-text-stroke: 1px;
+}
+.tab_heading:hover p {
+  color: var(--c-black-100) !important;
+}
+.tab_heading.active {
+  background-color: white;
+  -webkit-text-stroke: 1px;
+}
+.tab_heading.active p {
+  color: var(--c-black-100) !important;
+}
+.p_10 {
+  padding: 10px;
+}
+.recent_tabs_data_first_img {
+  width: 221px;
+  height: 210px;
+  border-radius: 4px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.recent_tabs_data_second_img {
+  width: 307px;
+  height: 210px;
+  border-radius: 4px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.recent_tabs_data_third_img {
+  max-width: 552px;
+  width: 100%;
+  height: 268px;
+  border-radius: 4px;
+  object-fit: cover;
+  overflow: hidden;
+}
+@media (min-width: 1921px) {
+  .capable-row-spacing {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1164px;
+  }
+}
+@media (max-width: 1399.99px) {
+  .swiper_button_next {
+    right: 40px;
+  }
+  .swiper_button_prev {
+    left: 40px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .swiper_button_next {
+    right: 20px;
+  }
+  .swiper_button_prev {
+    left: 20px;
+  }
+}
+@media (max-width: 1279.98px) {
+  .content-hide-challenging {
+    grid-template-rows: 1fr;
+  }
+  .card-challenging:hover {
+    max-width: 267px;
+    min-height: 338px;
+  }
+  .swiper_button_next {
+    position: relative;
+  }
+  .swiper_button_prev {
+    position: relative;
+  }
+  .exhibition_fitness_section {
+    padding: 277px 0px 100px 0px;
+  }
+  .contact-spacing {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+  .lightbox-modal img {
+    height: 450px !important;
+    max-height: 450px !important;
+    min-height: 300px !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  .custom_exhibition_card {
+    padding: 30px 35px 22px 24px;
+  }
+  .modular_outdoor_card {
+    padding: 30px 31px 22px 42px;
+  }
+  .retail_hospitality_card {
+    padding: 20px 30px 32px 29px;
+  }
+  .multi_city_card {
+    padding: 20px 31px 32px 42px;
+  }
+  .exhibition_fitness_heading_box {
+    max-width: 448px;
+  }
+  .capable-row-spacing {
+    margin-bottom: 100px;
+    margin-left: 100px;
+  }
+  .hero_text_parent {
+    max-width: 433px;
+  }
+  .w-upper-card-service {
+    max-width: 210px;
+  }
+}
+@media (max-width: 991.98px) {
+  .mobile_nav {
+    position: absolute;
+    left: -100%;
+    top: 78px;
+    background-color: black;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+  .left-0 {
+    left: 0 !important;
+  }
+  .page_logo {
+    width: 100px;
+  }
+  .hero_bg {
+    background-size: cover;
+  }
+  .hero_text_parent {
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  .hero_slider {
+    padding-bottom: 100px;
+  }
+  .number_box {
+    padding-top: 60px;
+  }
+  .hero_para {
+    margin: 0 auto;
+  }
+  .hero_slider_img {
+    width: 400px;
+    height: 500px;
+  }
+  .exhibition_fitness_heading_box {
+    max-width: unset;
+  }
+  .exhibition_para {
+    max-width: unset;
+  }
+  .exhibition_fitness_section {
+    padding: 257px 0px 40px 0px;
+  }
+  .recent_work_section {
+    margin-top: 50px;
+  }
+  .contact-spacing {
+    padding-bottom: 0px;
+  }
+  .about-2nd-box {
+    padding: 40px 24px;
+  }
+  .about-box {
+    padding: 0;
+  }
+  .capable-row-spacing {
+    margin-bottom: 80px;
+    margin-left: 80px;
+  }
+  .hero_text_parent {
+    max-width: unset;
+  }
+  .recent_tabs_data_first_img {
+    width: 40%;
+  }
+  .recent_tabs_data_second_img {
+    width: 60%;
+  }
+  .recent_tabs_data_third_img {
+    max-width: unset;
+  }
+  .recent_tab_box {
+    max-width: unset;
+  }
+  .recent_tab_box_spacing {
+    max-width: unset;
+  }
+  .lightbox-modal img {
+    height: 400px !important;
+    max-height: 400px !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .page_logo {
+    width: 80px;
+  }
+  .common-white-button {
+    padding: 12px;
+  }
+  .hero_slider_img {
+    width: 300px;
+    height: 350px;
+  }
+  .number_box {
+    padding-top: 40px;
+  }
+  .hero_text_parent {
+    padding-top: 80px;
+  }
+  .hero_slider {
+    padding-bottom: 80px;
+  }
+  .about-us-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .recent_work_section {
+    margin-top: 40px;
+  }
+  .spacing-services {
+    padding: 80px 0;
+  }
+  .contact-spacing {
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+  .capable-row-spacing {
+    margin-bottom: 60px;
+    margin-left: 60px;
+  }
+  .recent_tabs_data_first_img {
+    width: 50%;
+  }
+  .recent_tabs_data_second_img {
+    width: 50%;
+  }
+  .lightbox-modal img {
+    height: 350px !important;
+    max-height: 350px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .custom_exhibition_card {
+    padding: 20px;
+  }
+  .modular_outdoor_card {
+    padding: 20px;
+  }
+  .retail_hospitality_card {
+    padding: 20px;
+  }
+  .multi_city_card {
+    padding: 20px;
+  }
+  .slider-card-img {
+    max-width: 375px;
+  }
+  .card-service {
+    padding: 14px;
+    max-width: 250px;
+  }
+  .w-upper-card-service {
+    max-width: 250px;
+    width: 100%;
+  }
+  .capable-row-spacing {
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+  .recent_tabs_data_first_img {
+    width: 100%;
+    height: 150px;
+  }
+  .recent_tabs_data_second_img {
+    width: 100%;
+    height: 150px;
+  }
+  .recent_tabs_data_third_img {
+    height: 200px;
+  }
+  .recent_work_details {
+    gap: 48px;
+  }
+  .recent_tab_box {
+    max-height: 302px;
+  }
+  .lightbox-modal img {
+    height: 300px !important;
+    max-height: 300px !important;
+  }
+}
