@@ -12,7 +12,7 @@ const recentWorks = [
     ],
   },
   {
-    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail.webp",
+    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail-two.webp",
     alt: "thumbnail image",
     name: "Government Event-ADNOC-2024",
     projectDetailImage: [
@@ -23,7 +23,7 @@ const recentWorks = [
     ],
   },
   {
-    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail.webp",
+    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail-three.webp",
     alt: "thumbnail image",
     name: "Government Event-ADNOC-2024",
     projectDetailImage: [
@@ -34,7 +34,7 @@ const recentWorks = [
     ],
   },
   {
-    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail.webp",
+    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail-four.webp",
     alt: "thumbnail image",
     name: "Government Event-ADNOC-2024",
     projectDetailImage: [
@@ -45,7 +45,7 @@ const recentWorks = [
     ],
   },
   {
-    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail.webp",
+    tumbnailImg: "/assets/images/recent-work-images/adnoc-2024/thumbnail-five.webp",
     alt: "thumbnail image",
     name: "Government Event-ADNOC-2024",
     projectDetailImage: [
