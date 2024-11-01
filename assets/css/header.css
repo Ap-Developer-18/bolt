@@ -23,6 +23,7 @@
   top: 0;
   left: 0;
   object-fit: cover;
+  filter: brightness(25%);
 }
 
 .nav_bar {
